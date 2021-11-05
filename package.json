@@ -2,9 +2,22 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
-  "keywords": ["react", "starter"],
+  "keywords": [
+    "react",
+    "starter"
+  ],
   "main": "src/index.js",
   "dependencies": {
+    "@date-io/date-fns": "2.11.0",
+    "@emotion/react": "11.5.0",
+    "@emotion/styled": "11.3.0",
+    "@material-ui/core": "4.12.3",
+    "@material-ui/icons": "4.11.2",
+    "@mui/lab": "5.0.0-alpha.53",
+    "@mui/material": "5.0.6",
+    "@types/date-fns": "2.6.0",
+    "date-fns": "2.25.0",
+    "material-table": "1.69.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-scripts": "4.0.0"
@@ -19,5 +32,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
